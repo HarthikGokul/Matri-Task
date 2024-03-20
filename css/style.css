@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,400&amp;family=Oswald:wght@300;400;500;600;700&amp;family=Poppins:wght@200;300;400;500;600;700;800;900&amp;family=Sail&amp;display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,400&amp;family=Oswald:wght@300;400;500;600;700&amp;family=Poppins:wght@200;300;400;500;600;700;800;900&amp;family=Sail&amp;display=swap");
 
 html {
   font-size: 68.75%;
@@ -67,7 +67,7 @@ var {
   outline: none !important;
   padding: 0;
   vertical-align: baseline;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -77,7 +77,6 @@ body {
   background-repeat: repeat-x;
   font-size: 1.4rem;
   color: #272320;
-
 }
 
 a {
@@ -141,18 +140,16 @@ img {
 }
 
 :root {
-  --lightcolor: #dcb560;
+  --lightcolor: #00a859;
   --darkcolor: #1e1936;
   --whitecolor: #ffffff;
 }
 
 h2 {
-  font-family: 'sail';
+  font-family: "sail";
 }
 
-
 @media (min-width: 1200px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -195,16 +192,14 @@ header {
   text-transform: uppercase;
   /* font-family: 'Oswald', sans-serif;
     letter-spacing: 2px; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: var(--darkcolor);
-
-
 }
 
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .show > .nav-link {
   color: var(--lightcolor);
 }
 
@@ -217,12 +212,11 @@ header {
   background: var(--lightcolor);
   color: var(--whitecolor);
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   padding: 12px 20px;
   font-weight: 600;
 }
-
 
 .banner-part {
   background: url(../images/banner2.jpg) no-repeat;
@@ -239,7 +233,6 @@ header {
   height: 460px;
   /* background: #fff; */
   padding: 35px;
-
 }
 
 .serach-iu::before {
@@ -273,7 +266,7 @@ header {
 }
 
 .inuoyrx h2 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 32px;
   line-height: 42px;
   color: var(--darkcolor);
@@ -297,7 +290,7 @@ header {
   text-transform: uppercase;
   font-weight: 600;
   color: var(--whitecolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: ease-in-out 0.5s;
 }
 
@@ -314,7 +307,7 @@ header {
 }
 
 .main-heading01 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   z-index: 1;
   position: relative;
@@ -328,7 +321,6 @@ header {
   display: block;
   width: max-content;
   padding: 0 60px;
-
 }
 
 .main-heading01 p span {
@@ -365,7 +357,6 @@ header {
   border: solid 1px #ededed;
   width: 100%;
   padding: 0 10px;
-
 }
 
 .custom-select-wrapper select {
@@ -412,11 +403,12 @@ header {
   top: 0;
   right: 0;
   margin-top: 0;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   font-size: 17px;
 }
 
-.custom-select.opened .custom-select-trigger:after {}
+.custom-select.opened .custom-select-trigger:after {
+}
 
 .custom-options {
   position: absolute;
@@ -433,7 +425,6 @@ header {
   background: #fff;
   transition: all 0.4s ease-in-out;
   z-index: 2;
-
 
   opacity: 0;
   visibility: hidden;
@@ -513,7 +504,7 @@ header {
 }
 
 .items-polupar h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 26px;
   color: var(--darkcolor);
 }
@@ -571,12 +562,11 @@ header {
 }
 
 .text-details01 h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   /* font-size: 30px; */
   color: var(--darkcolor);
   font-size: 22px;
   font-weight: 600;
-
 }
 
 .text-details01 p {
@@ -619,7 +609,8 @@ header {
 
 .venusts-div {
   padding: 60px 0;
-  background: url(../images/leaflets.webp) no-repeat, url(../images/img-06.jpg) no-repeat;
+  background: url(../images/leaflets.webp) no-repeat,
+    url(../images/img-06.jpg) no-repeat;
   background-position: -90px 330px, right top;
   background-size: auto, 50%;
 }
@@ -686,7 +677,7 @@ header {
 }
 
 .officer h2 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 45px;
   text-transform: capitalize;
 }
@@ -714,7 +705,8 @@ header {
 
 .inhouse-service {
   padding: 60px 0;
-  background: url(../images/flow01.png) no-repeat, url(../images/bg-wtare.jpg) no-repeat;
+  background: url(../images/flow01.png) no-repeat,
+    url(../images/bg-wtare.jpg) no-repeat;
   background-position: left bottom, right top;
   background-size: auto;
 }
@@ -723,19 +715,17 @@ header {
   border: 1px solid #f3f2f2;
   padding: 10px 10px 22px 10px;
   background: #fff;
-
 }
 
 .crmou-txet h5 {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: var(--darkcolor);
   text-overflow: ellipsis;
   width: 70%;
   white-space: nowrap;
   overflow: hidden;
-
 }
 
 .crmou-txet p {
@@ -806,7 +796,8 @@ header {
   color: var(--whitecolor);
 }
 
-.joinuys .form-group {}
+.joinuys .form-group {
+}
 
 .joinuys .form-control:focus::placeholder {
   color: transparent;
@@ -815,7 +806,6 @@ header {
 .joinuys .form-control::placeholder {
   color: var(--whitecolor);
 }
-
 
 /* new css add */
 
@@ -827,12 +817,11 @@ header {
 }
 
 .main-head {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 40px;
   text-transform: capitalize;
   margin-bottom: 8px;
   color: var(--darkcolor);
-
 }
 
 .items-webiste {
@@ -845,13 +834,12 @@ header {
   align-content: center;
   padding: 0 20px;
   background: #fff;
-
 }
 
 .items-webiste h5 {
   color: var(--darkcolor);
   font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -903,7 +891,7 @@ header {
 .btn-vide {
   background: var(--lightcolor);
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 9px 15px;
   margin-top: 10px;
   color: var(--whitecolor);
@@ -948,7 +936,7 @@ header {
 .btn-more2 {
   background: var(--lightcolor);
   padding: 10px 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
@@ -978,7 +966,7 @@ header {
 }
 
 .comon-storty h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: var(--darkcolor);
@@ -994,7 +982,7 @@ header {
 }
 
 .comon-storty h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: var(--lightcolor);
   font-size: 14px;
@@ -1052,19 +1040,19 @@ header {
 .insidetextrs h2 {
   font-size: 45px;
   text-transform: capitalize;
-  font-family: 'sail';
+  font-family: "sail";
 }
 
 .insidetextrs h2 span {
   text-transform: capitalize;
-  font-family: 'sail';
+  font-family: "sail";
   margin-top: 5px;
 }
 
 .btn-expor {
   background: var(--lightcolor);
   padding: 10px 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
@@ -1138,7 +1126,6 @@ header {
 }
 
 .choose-partef-gidt {
-
   display: inline-block;
   width: 100%;
   padding: 40px 0;
@@ -1157,20 +1144,19 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
-
 }
 
 .text-middle01 h5 {
   font-size: 30px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .text-middle01 h6 {
   color: var(--whitecolor);
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -1235,7 +1221,7 @@ header {
 }
 
 .comi {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #fff;
   padding: 10px 25px;
   font-size: 15px;
@@ -1258,7 +1244,7 @@ header {
 }
 
 .comon-forma h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   display: -webkit-flex;
   -webkit-line-clamp: 2;
   overflow: hidden;
@@ -1275,7 +1261,7 @@ header {
 .comon-forma h6 {
   font-weight: 600;
   color: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blogs-div .crmou-txet .img-divu {
@@ -1291,7 +1277,7 @@ header {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--lightcolor);
   margin-bottom: 5px;
 }
@@ -1351,7 +1337,7 @@ footer {
 
 .tops-coion01 h5 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tops-coion01 li {
@@ -1361,7 +1347,7 @@ footer {
 .tops-coion01 li a {
   color: #868493;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tops-coion01 hr {
@@ -1375,13 +1361,13 @@ footer {
 
 .next-serc h5 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .next-serc p {
   color: #868493;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .rti-01 {
@@ -1390,10 +1376,9 @@ footer {
 
 .soliuy a {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   padding: 0;
-
 }
 
 .soliuy li {
@@ -1410,7 +1395,7 @@ footer {
 
 .btn-sendi {
   background: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   height: 45px;
   border-radius: 0;
@@ -1435,7 +1420,6 @@ footer {
   bottom: 0;
   width: 62%;
   pointer-events: none;
-
 }
 
 .newoi {
@@ -1498,13 +1482,13 @@ footer {
 }
 
 .sub-banner-part h2 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 40px;
   color: var(--whitecolor);
   text-transform: capitalize;
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
   color: var(--whitecolor);
 }
 
@@ -1522,7 +1506,7 @@ footer {
 }
 
 .filter-by {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 30px;
   text-transform: capitalize;
   color: var(--darkcolor);
@@ -1542,7 +1526,7 @@ footer {
   position: relative;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--darkcolor);
   border-bottom: solid 1px #f1f0f0 !important;
@@ -1558,7 +1542,7 @@ footer {
 .list-serach-acd .accordion-button span {
   font-size: 17px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -1574,7 +1558,7 @@ footer {
   font-size: 15px;
   color: var(--darkcolor);
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-left: 10px;
 }
 
@@ -1651,8 +1635,6 @@ footer {
   width: 100% !important;
   height: 100% !important;
   cursor: pointer !important;
-
-
 }
 
 .radion-div .form-check-label {
@@ -1662,16 +1644,14 @@ footer {
   line-height: 45px !important;
   padding: 2px 13px !important;
   display: inline-block !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 13px !important;
   font-weight: 600;
-
 }
 
-.radion-div .form-check-input:checked+.form-check-label {
+.radion-div .form-check-input:checked + .form-check-label {
   background: var(--lightcolor) !important;
 }
-
 
 .radiou {
   display: none;
@@ -1679,25 +1659,25 @@ footer {
 
 .load-more {
   color: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
 
 .tiuys-text {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 35px;
   color: var(--darkcolor);
 }
 
 .sub-iti {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
 .listed-bn ul li a span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -1735,13 +1715,13 @@ footer {
   padding: 0;
   border: 0;
   border-radius: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .comon-items-d1 {
   display: inline-block;
   width: 100%;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
   padding: 10px;
   height: 388px;
 }
@@ -1778,7 +1758,7 @@ footer {
 .cateogyt {
   background: var(--lightcolor);
   color: var(--whitecolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   position: absolute;
   top: 10px;
@@ -1788,7 +1768,7 @@ footer {
 .comon-items-d1 h5 {
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: var(--darkcolor);
   text-overflow: ellipsis;
   width: 90%;
@@ -1806,7 +1786,7 @@ footer {
 }
 
 .addrts01 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-overflow: ellipsis;
   width: 90%;
   white-space: nowrap;
@@ -1832,8 +1812,7 @@ footer {
 .rting01 {
   font-size: 14px;
   margin: 8px 0;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .rting01 i {
@@ -1843,12 +1822,11 @@ footer {
 .addrts01 strong {
   color: var(--darkcolor);
   font-size: 20px;
-
 }
 
 .vfg1 p {
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .addrts01 sup {
@@ -1873,7 +1851,6 @@ footer {
 
 .list-group-item .voti {
   display: flex;
-
 }
 
 .list-group-item .rting01 {
@@ -1922,7 +1899,7 @@ footer {
 .describpti {
   display: none;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #909090;
 }
 
@@ -1940,7 +1917,7 @@ footer {
   padding: 10px 28px;
   font-size: 14px;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 65px auto 0 auto;
   display: table;
 }
@@ -1961,7 +1938,7 @@ footer {
   background: var(--lightcolor);
   font-size: 13px;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 8px 19px;
   text-transform: uppercase;
   display: none;
@@ -2029,19 +2006,18 @@ footer {
 }
 
 .details-ter p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .details-ter .rigtu {
   background: var(--lightcolor);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
 
 .righty-boxo1 {
-
   position: sticky;
   position: -webkit-sticky;
   top: 145px;
@@ -2059,14 +2035,14 @@ footer {
 }
 
 .comon-paytu h2 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 28px;
   border-bottom: solid 1px #efefef;
   padding-bottom: 3px;
 }
 
 .righty-boxo1 h3 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 28px;
   color: var(--darkcolor);
   margin: 11px 0 9px 13px;
@@ -2079,7 +2055,7 @@ footer {
 }
 
 .pric-info h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: var(--darkcolor);
@@ -2113,20 +2089,20 @@ footer {
 
 .proiuy-info p {
   color: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   margin: 0 5px;
 }
 
 .proiuy-info h6 {
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
 .check-avlityt h5 {
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -2137,7 +2113,7 @@ footer {
   height: 40px;
   font-size: 14px;
   border-radius: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f7f7f7;
 }
 
@@ -2149,12 +2125,12 @@ footer {
 
 .check-avlityt .form-check-label {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-sendme {
   background: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -2164,10 +2140,11 @@ footer {
   margin-top: 25px;
 }
 
-.tabsh {}
+.tabsh {
+}
 
 .tabsh .nav-tabs .nav-item .nav-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2227,14 +2204,13 @@ footer {
 }
 
 .comon-deli h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--darkcolor);
   margin-bottom: 8px;
 }
-
 
 #full-stars-example-two {
   /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
@@ -2275,7 +2251,10 @@ footer {
   color: orange;
 }
 
-#full-stars-example-two .rating__input:checked~.rating__label .rating__icon--star {
+#full-stars-example-two
+  .rating__input:checked
+  ~ .rating__label
+  .rating__icon--star {
   color: #ddd;
 }
 
@@ -2283,7 +2262,10 @@ footer {
   color: orange;
 }
 
-#full-stars-example-two .rating__input:hover~.rating__label .rating__icon--star {
+#full-stars-example-two
+  .rating__input:hover
+  ~ .rating__label
+  .rating__icon--star {
   color: #ddd;
 }
 
@@ -2305,13 +2287,13 @@ footer {
   padding: 10px;
 }
 
-.chart .rate-box>* {
+.chart .rate-box > * {
   height: 100%;
   display: flex;
   align-items: center;
   font-weight: 500;
   color: #444;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
@@ -2327,7 +2309,7 @@ footer {
 .chart .value {
   font-size: 20px;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .rate-box .progress-bar {
@@ -2366,7 +2348,7 @@ footer {
   transition: 0.5s ease-in-out all;
 }
 
-.global>span {
+.global > span {
   font-size: 90px;
   font-weight: 500;
 }
@@ -2378,7 +2360,6 @@ footer {
   position: relative;
   width: 100%;
   height: 10%;
-
 }
 
 .rating-icons span {
@@ -2393,7 +2374,7 @@ footer {
 
 .total-reviews {
   font-size: 18px !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
 
@@ -2407,7 +2388,7 @@ footer {
   background: #f1f1f1;
   height: 45px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .leave-sec-part textarea,
@@ -2424,7 +2405,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   padding: 10px 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 0;
@@ -2456,7 +2437,7 @@ footer {
 
 .comment-text h5 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -2473,7 +2454,7 @@ footer {
 
 .submit-btn {
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   background: var(--lightcolor);
   text-transform: uppercase;
@@ -2514,7 +2495,7 @@ footer {
 .pori01 {
   color: var(--darkcolor);
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -2530,7 +2511,7 @@ footer {
 }
 
 .spi-head {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2549,7 +2530,7 @@ footer {
 
 .crmi-drop01 {
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: var(--darkcolor);
   border: solid 1px #f3f3f3;
@@ -2569,13 +2550,13 @@ footer {
 }
 
 .comon-topic {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
   padding: 30px;
   margin-bottom: 20px;
 }
 
 .copi-top {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
   padding: 20px;
 }
 
@@ -2588,7 +2569,7 @@ footer {
 }
 
 .comon-topic h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--darkcolor);
   font-size: 18px;
@@ -2596,7 +2577,7 @@ footer {
 }
 
 .comon-topic p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: var(--darkcolor);
   font-size: 14px;
@@ -2616,13 +2597,12 @@ footer {
 .start-btn {
   background: var(--lightcolor);
   color: var(--whitecolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 14px;
   padding: 8px 25px;
   margin: auto;
-
 }
 
 .comoni-user {
@@ -2644,7 +2624,7 @@ footer {
 }
 
 .comoni-user h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--darkcolor);
   font-size: 15px;
@@ -2657,10 +2637,11 @@ footer {
   font-weight: 400;
 }
 
-.catr-me ul li {}
+.catr-me ul li {
+}
 
 .catr-me ul li a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--darkcolor);
   font-size: 15px;
@@ -2687,27 +2668,26 @@ footer {
 
 /* price table */
 
-
 .pricing-table {
   background: #fff;
-  box-shadow: 0px 1px 20px -6px rgba(0, 0, 0, .15);
+  box-shadow: 0px 1px 20px -6px rgba(0, 0, 0, 0.15);
   padding: 2rem;
   border-radius: 4px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .pricing-table:hover {
-  box-shadow: 0px 1px 20px -4px rgba(0, 0, 0, .25);
+  box-shadow: 0px 1px 20px -4px rgba(0, 0, 0, 0.25);
 }
 
 .pricing-table .pricing-label {
   border-radius: 2px;
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   margin-bottom: 1rem;
   display: inline-block;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
@@ -2719,7 +2699,7 @@ footer {
 }
 
 .pricing-table h5 {
-  color: #B3B3B3;
+  color: #b3b3b3;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2730,10 +2710,10 @@ footer {
 
 .pricing-table .pricing-features .feature {
   font-size: 15px;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   color: var(--darkcolor);
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -2741,7 +2721,7 @@ footer {
   display: inline-block;
   color: #3b3b3b;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .pricing-table .pricing-features .feature span i {
@@ -2763,7 +2743,7 @@ footer {
 .pricing-table .price-tag .amount {
   letter-spacing: -2px;
   font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -2779,12 +2759,11 @@ footer {
   padding: 10px 25px;
   border-radius: 2px;
   text-align: center;
-  transition: .3s;
-  font-family: 'Montserrat', sans-serif;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
-
 }
 
 .pricing-table .price-button:hover {
@@ -2845,7 +2824,6 @@ footer {
 .fq-div .accordion-button:not(.collapsed) {
   background: var(--darkcolor);
   color: var(--whitecolor);
-
 }
 
 .fq-div .accordion-button {
@@ -2876,7 +2854,7 @@ footer {
 }
 
 .wedding-details h2 span {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 45px;
 }
 
@@ -2897,7 +2875,7 @@ footer {
 }
 
 .wedding-details .comon-avild a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 12px;
   color: var(--lightcolor);
@@ -2912,13 +2890,13 @@ footer {
   font-size: 18px;
   font-weight: 600;
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .vendoriu h5 span {
   font-weight: 400;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 5px;
 }
 
@@ -2930,7 +2908,6 @@ footer {
   margin-right: 10px;
 }
 
-
 .shoop-div .comon-items-d1 {
   display: inline-block;
   padding: 0;
@@ -2938,16 +2915,16 @@ footer {
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0 !important;
   padding: 10px !important;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .shoop-div .comon-items-d1 h2 {
   font-weight: 700;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 
@@ -2955,7 +2932,7 @@ footer {
   font-size: 18px;
   text-decoration: line-through;
   color: #bbb;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -2975,7 +2952,7 @@ footer {
   font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .shoop-div .grid-group-item figure {
@@ -3000,7 +2977,7 @@ footer {
 .shoop-div .view-products {
   background: var(--lightcolor);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   border-radius: 0;
@@ -3015,14 +2992,13 @@ footer {
   text-decoration: none;
   text-overflow: ellipsis;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   white-space: nowrap;
   display: inline-block;
   overflow: hidden;
   font-weight: 600;
 }
-
 
 .display-img {
   width: 100%;
@@ -3044,7 +3020,7 @@ footer {
 
 .big-img img.zoom {
   position: absolute;
-  transition: width .2s ease-out, opacity .2s ease-out .2s;
+  transition: width 0.2s ease-out, opacity 0.2s ease-out 0.2s;
 }
 
 .img-selection {
@@ -3060,8 +3036,8 @@ footer {
   height: 100px;
   border: 1px solid #f2f1f1;
   cursor: pointer;
-  transition: .3s ease;
-  opacity: .5;
+  transition: 0.3s ease;
+  opacity: 0.5;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -3076,7 +3052,7 @@ footer {
   font-weight: 700;
   margin: 8px 0;
   font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .rtingh p i {
@@ -3085,7 +3061,7 @@ footer {
 }
 
 .menu-dl-right h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
@@ -3111,7 +3087,7 @@ footer {
   padding: 10px !important;
   display: inline-block;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   font-style: normal;
   font-weight: 600;
@@ -3148,7 +3124,7 @@ footer {
 }
 
 .menu-dl-right h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 700;
@@ -3191,7 +3167,7 @@ footer {
   background: var(--lightcolor);
   color: #fff;
   border-radius: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   padding-left: 20px;
@@ -3201,7 +3177,7 @@ footer {
 }
 
 .bottom-details h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   font-style: normal;
   font-weight: 600;
@@ -3210,7 +3186,7 @@ footer {
 
 .bottom-details p {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .comment-user-div {
@@ -3244,12 +3220,12 @@ footer {
 
 .bottom-details p {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .rating-box .rating-container label:hover,
-.rating-box .rating-container label:hover~label,
-.rating-box .rating-container input:checked~label {
+.rating-box .rating-container label:hover ~ label,
+.rating-box .rating-container input:checked ~ label {
   color: gold;
 }
 
@@ -3259,7 +3235,7 @@ footer {
   color: #d4d4d4;
   cursor: pointer;
   font-size: 40px;
-  transition: color .2s;
+  transition: color 0.2s;
 }
 
 .rating-box .rating-container input {
@@ -3302,7 +3278,7 @@ footer {
 }
 
 .related-produc .right-list-div h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -3319,7 +3295,7 @@ footer {
 }
 
 .related-produc .titel-product {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-overflow: ellipsis;
   overflow: hidden;
   width: 90%;
@@ -3336,7 +3312,7 @@ footer {
 .blogs-info-div .comon-blogs-list-items {
   display: inline-block;
   height: 610px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   background: #fff;
   overflow: hidden;
 }
@@ -3350,7 +3326,7 @@ footer {
 }
 
 .blogs-info-div .comon-blogs-list-items figure img {
-  transition: all .5s linear;
+  transition: all 0.5s linear;
   transform: scale(1);
   object-fit: cover;
   width: 100%;
@@ -3363,7 +3339,7 @@ footer {
   left: 20px;
   background: var(--lightcolor);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-align: center;
   display: grid;
@@ -3383,7 +3359,7 @@ footer {
 
 .blogs-info-div .comon-blogs-list-items .content-post h6 {
   color: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -3392,7 +3368,7 @@ footer {
 
 .blogs-info-div .comon-blogs-list-items .content-post h5 {
   color: var(--darkcolor);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   width: 90%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -3412,12 +3388,12 @@ footer {
 }
 
 .blogs-info-div .comon-blogs-list-items .content-post p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
 .comon-sec-blogs-inf-right {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   background: #fff;
   padding: 30px;
   display: grid;
@@ -3429,7 +3405,7 @@ footer {
 .comon-sec-blogs-inf-right h5 {
   font-size: 30px;
   color: var(--darkcolor);
-  font-family: 'sail';
+  font-family: "sail";
 }
 
 .comon-sec-blogs-inf-right ul li {
@@ -3440,7 +3416,7 @@ footer {
 
 .comon-sec-blogs-inf-right ul li a {
   color: var(--darkcolor);
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 }
 
 .tags02 ul li {
@@ -3454,7 +3430,7 @@ footer {
   font-size: 14px;
   background: var(--lightcolor);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   border: none !important;
 }
@@ -3473,7 +3449,7 @@ footer {
 .comon-sec-blogs-inf-right .como-list .textry h5 {
   font-size: 14px;
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .comon-sec-blogs-inf-right .como-list .textry p {
@@ -3492,7 +3468,7 @@ footer {
 
 .blog-post p {
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blog-post figure {
@@ -3535,7 +3511,7 @@ footer {
   color: var(--lightcolor);
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -3546,12 +3522,12 @@ footer {
 }
 
 .story-body h2 {
-  font-family: 'sail';
+  font-family: "sail";
   color: var(--darkcolor);
 }
 
 .items-counting h2 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 35px;
 }
 
@@ -3581,7 +3557,7 @@ footer {
   margin-bottom: 15px;
   background: var(--whitecolor);
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-form-paart .form-select {
@@ -3589,7 +3565,7 @@ footer {
   height: 50px;
   margin-bottom: 15px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-form-paart textarea {
@@ -3604,18 +3580,17 @@ footer {
   color: #fff;
   width: 100%;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
 .contact-des-section .contacrt-div h4 {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 30px;
 }
 
 .pohtos {
   padding: 40px 0;
-
 }
 
 .poic {
@@ -3631,20 +3606,20 @@ footer {
 
 .poic h5 {
   color: var(--darkcolor);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 22px;
 }
 
 .poic h6 {
   color: var(--lightcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
 .poic p {
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 
@@ -3681,7 +3656,7 @@ footer {
   font-weight: 600;
   margin-bottom: 8px;
   color: var(--darkcolor);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .left-sec-d2 {
@@ -3707,14 +3682,14 @@ footer {
 .ceck-out-right-div {
   display: inline-block;
   width: 100%;
-  border: solid 1px rgba(0, 0, 0, .05);
+  border: solid 1px rgba(0, 0, 0, 0.05);
   padding: 30px;
 }
 
 .checkout-table th {
   background: var(--darkcolor);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
 }
 
@@ -3731,14 +3706,14 @@ footer {
 .total-price span {
   font-weight: 700;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form-wizard-next-btn {
   background: var(--darkcolor);
   color: #fff !important;
   border-radius: 0 !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
@@ -3759,7 +3734,7 @@ footer {
 }
 
 .cart-haedeing h2 span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--lightcolor);
   font-size: 15px;
   font-weight: 500;
@@ -3809,7 +3784,7 @@ footer {
 }
 
 .comon-items-cart .left-section-div .products-cart1 h5 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: var(--darkcolor);
   font-weight: 500;
   font-size: 22px;
@@ -3834,7 +3809,7 @@ footer {
   color: var(--lightcolor);
   font-weight: 700;
   font-size: 29px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .comon-items-cart .crat-linl-pay h4 span {
@@ -3895,7 +3870,7 @@ footer {
 }
 
 .total-count-div .itemsl-list li span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: 700;
 }
@@ -3908,7 +3883,7 @@ footer {
 
 .total-count-div .pay-listy li .list-payt {
   color: #ffc107;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .total-count-div .pay-listy li span {
@@ -3921,20 +3896,20 @@ footer {
   align-items: center;
   justify-content: space-between;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .total-count-div .pay-listy li .price-bn {
   font-weight: 700;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .total-count-div .btncheck-btn {
   background: var(--darkcolor);
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
   width: 100%;
   padding: 12px 24px;
@@ -3942,7 +3917,7 @@ footer {
 }
 
 .total-count-div .promo-code1 label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin-bottom: 5px;
   font-weight: 600;
@@ -3952,7 +3927,7 @@ footer {
   border-radius: 0px 8px 8px 0px;
   background: #fff;
   height: 983px;
-  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, .25);
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   margin: 60px 0;
   margin-top: 176px;
@@ -3987,7 +3962,6 @@ footer {
 .txer li i {
   margin-right: 10px;
   font-size: 20px;
-
 }
 
 .left-sigup {
@@ -4024,14 +3998,14 @@ footer {
   font-size: 40px;
   font-weight: 700;
   color: var(--darkcolor);
-  font-family: 'sail';
+  font-family: "sail";
 }
 
 .signup-register .form-group .form-select {
   border-radius: 5px;
   background-color: rgb(215 215 215 / 18%);
   height: 49px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
   border: none;
   font-size: 14px;
   text-indent: 10px;
@@ -4042,7 +4016,7 @@ footer {
   width: 100%;
   height: 49px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -4075,7 +4049,6 @@ footer {
 }
 
 .redc::before {
-
   background: red;
 }
 
@@ -4107,14 +4080,14 @@ footer {
 }
 
 .aiid-menu h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: var(--lightcolor);
 }
 
 .aiid-menu .comi2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 4px 0;
   font-size: 14px;
   font-weight: 400;
@@ -4138,7 +4111,7 @@ footer {
 }
 
 .navbar .dropdown-item {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 4px 0;
   font-size: 14px;
   font-weight: 400;
@@ -4156,23 +4129,21 @@ footer {
   padding-left: 5px;
 }
 
-
 .dropdown-menu1 {
   top: 80px;
   opacity: 0;
   transition: top 0.8s ease;
   visibility: hidden;
   z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
   display: block;
-
 }
 
-.dropdown:hover>.dropdown-menu1 {
+.dropdown:hover > .dropdown-menu1 {
   top: 100%;
   height: inherit;
   opacity: inherit;
@@ -4191,7 +4162,7 @@ footer {
 }
 
 .main-headra {
-  font-family: 'sail';
+  font-family: "sail";
   font-size: 50px;
 }
 
@@ -4205,11 +4176,11 @@ footer {
   line-height: 36px;
   font-size: 14px;
   color: #1d1d1d;
-  transition: all .5s linear;
+  transition: all 0.5s linear;
   padding: 0;
 }
 
-.mobile-menu-sec>ul>li {
+.mobile-menu-sec > ul > li {
   margin-bottom: 15px;
 }
 
@@ -4236,7 +4207,7 @@ footer {
 .login-btn {
   text-transform: uppercase;
   line-height: 1.25rem;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   position: relative;
   font-weight: 500;
   font-size: 14px !important;
@@ -4330,13 +4301,13 @@ footer {
   font-weight: 500;
   width: 100%;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: 1px;
   height: 45px;
   line-height: 31px;
-  transition: all .5s;
+  transition: all 0.5s;
   font-size: 16px;
 }
 
@@ -4354,7 +4325,7 @@ footer {
   right: -10px;
 }
 
-@media(max-width:1180px) {
+@media (max-width: 1180px) {
   .navbar .nav-item {
     margin: 0 7px;
   }
@@ -4388,7 +4359,7 @@ footer {
   }
 }
 
-@media(max-width:900px) {
+@media (max-width: 900px) {
   .rti-01 {
     border-right: 0;
   }
@@ -4427,8 +4398,7 @@ footer {
   }
 }
 
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
   .banner-part,
   .sub-banner-part {
     margin-top: 67px;
@@ -4466,10 +4436,9 @@ footer {
   .crmou-txet h5 {
     font-size: 17px;
   }
-
 }
 
-@media(max-width:668px) {
+@media (max-width: 668px) {
   .insidetextrs {
     grid-template-columns: 1fr;
     padding: 23px;
@@ -4522,14 +4491,13 @@ footer {
   }
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
   .comon-items-cart .crat-linl-pay {
     width: 100%;
   }
 }
 
-@media(max-width:375px) {
-
+@media (max-width: 375px) {
   .banner-part,
   .sub-banner-part {
     margin-top: 67px;
@@ -4582,5 +4550,4 @@ footer {
   .blog-post ul li {
     margin: 0 7px;
   }
-
 }
